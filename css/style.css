@@ -20,7 +20,7 @@ a {
 
 /* =============dashboard-right-start=============== */
 .dashboard_right {
-    width: 82%;
+    width: 100%;
     background: #F5F5F5;
     height: 100vh;
 }
@@ -116,7 +116,12 @@ a {
 
 /* ===============Table========= */
 .data_table {
-    width: 90%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+table {
+    width: 95%;
     margin: 0 auto;
 }
 

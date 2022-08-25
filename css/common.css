@@ -143,13 +143,30 @@ a {
 /* =========dashboard_area-end========= */
 /* ===========SideBar Start================ */
 
-.dashboard_left {
+#dashboard_left {
     padding-top: 90px;
     width: 18%;
     height: 100vh;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+}
 
-
+#dashboard_left.active {
+    padding-top: 90px;
+    width: 70px;
+    height: 100vh;
+    background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .desh_menu {

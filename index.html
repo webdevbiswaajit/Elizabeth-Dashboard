@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- =========Coustom-css============== -->
     <title>Dashboard</title>
+
 </head>
 
 <body>
@@ -32,7 +33,9 @@
                     </div>
                     <div class="menu_item">
                         <div class="hamburger_icon">
-                            <iconify-icon icon="gg:menu"></iconify-icon>
+                            <button id="toggle">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
                         </div>
                         <div class="user_info">
                             <div class="admin_info">
@@ -65,14 +68,14 @@
         <section>
 
             <div class="dashboard_area">
-                <div class="dashboard_left">
+                <div id="dashboard_left">
                     <div class="desh_menu">
                         <a href="#">
                             <div class="item_link">
                                 <div class="icone">
                                     <iconify-icon icon="bi:speedometer2"></iconify-icon>
                                     <div class="link_name">
-                                        <span>Dashboard</span>
+                                        <span class="h_link">Dashboard</span>
                                     </div>
                                 </div>
                                 <div class="arrow">
@@ -85,7 +88,7 @@
                                 <div class="icone">
                                     <iconify-icon icon="bxs:user"></iconify-icon>
                                     <div class="link_name">
-                                        <span>User</span>
+                                        <span class="h_link">User</span>
                                     </div>
                                 </div>
                                 <div class="arrow">
@@ -98,7 +101,7 @@
                                 <div class="icone">
                                     <iconify-icon icon="bxs:user-detail"></iconify-icon>
                                     <div class="link_name">
-                                        <span>Blog</span>
+                                        <span class="h_link">Blog</span>
                                     </div>
                                 </div>
                                 <div class="arrow">
@@ -111,7 +114,7 @@
                                 <div class="icone">
                                     <iconify-icon icon="ep:message"></iconify-icon>
                                     <div class="link_name">
-                                        <span>Message</span>
+                                        <span class="h_link">Message</span>
                                     </div>
                                 </div>
                                 <div class="arrow">
@@ -315,10 +318,12 @@
 
 
 
-
-
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="./js/jquary..js"></script>
     <script src="js/custom.js"></script>
+    <script>
+
+    </script>
 </body>
 
 </html>
