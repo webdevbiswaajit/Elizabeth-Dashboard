@@ -39,7 +39,7 @@ a {
 }
 
 .logo_area {
-    width: 20%;
+    width: 180px;
 }
 
 .logo_area img {
@@ -54,10 +54,13 @@ a {
     align-items: center;
 }
 
-.hamburger_icon {
+.hamburger_icon button {
     color: #0077B6;
     font-size: 28px;
     line-height: 28px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .user_info {
@@ -145,33 +148,61 @@ a {
 
 #dashboard_left {
     padding-top: 90px;
-    width: 18%;
+    width: 280px;
     height: 100vh;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
-    transition: .2s all ease;
-    -webkit-transition: .2s all ease;
-    -moz-transition: .2s all ease;
-    -ms-transition: .2s all ease;
-    -o-transition: .2s all ease;
+    transition: .15s all ease;
+    -webkit-transition: .15s all ease;
+    -moz-transition: .15s all ease;
+    -ms-transition: .15s all ease;
+    -o-transition: .15s all ease;
 }
+
+.h_link {
+    transition: 1s all ease-in-out;
+    -webkit-transition: 1s all ease-in-out;
+    -moz-transition: 1s all ease-in-out;
+    -ms-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+    opacity: 1;
+}
+
+.show_arrow {
+    /* display: block; */
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    opacity: 1;
+}
+
+
 
 #dashboard_left.active {
     padding-top: 90px;
-    width: 70px;
+    width: 80px;
     height: 100vh;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
+    transition: .5s all ease-in-out;
+    /* padding-left: 30px; */
+    padding-right: 30px;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+}
+
+.desh_menu {
+    /* width: 70%; */
+    margin: 15px auto;
     transition: .2s all ease;
     -webkit-transition: .2s all ease;
     -moz-transition: .2s all ease;
     -ms-transition: .2s all ease;
     -o-transition: .2s all ease;
     padding-left: 30px;
-    padding-right: 30px;
-}
-
-.desh_menu {
-    width: 70%;
-    margin: 15px auto;
+    padding-right: 15px;
 }
 
 .desh_menu a {
@@ -192,23 +223,29 @@ a {
     font-size: 24px;
 }
 
+.igap {
+    margin-right: 20px;
+}
+
 .link_name span {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     display: flex;
-    margin-left: 14px;
+    margin-left: 20px;
+
 }
 
 .arrow {
     color: #FFFF;
     margin-top: 4px;
+
 }
 
 /* ===========SideBar End================ */
 /* =============dashboard-right-start=============== */
 .dashboard_right {
-    width: 82%;
+    width: 100%;
     background: #F5F5F5;
     height: 100vh;
 }

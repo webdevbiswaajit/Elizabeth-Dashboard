@@ -79,7 +79,9 @@
                                     </div>
                                 </div>
                                 <div class="arrow">
-                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
                                 </div>
                             </div>
                         </a>
@@ -92,7 +94,9 @@
                                     </div>
                                 </div>
                                 <div class="arrow">
-                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
                                 </div>
                             </div>
                         </a>
@@ -105,7 +109,10 @@
                                     </div>
                                 </div>
                                 <div class="arrow">
-                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
                                 </div>
                             </div>
                         </a>
@@ -118,7 +125,10 @@
                                     </div>
                                 </div>
                                 <div class="arrow">
-                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
                                 </div>
                             </div>
                         </a>
@@ -322,7 +332,16 @@
     <script src="./js/jquary..js"></script>
     <script src="js/custom.js"></script>
     <script>
-
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $(".h_link").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $(".show_arrow").toggle();
+            });
+        });
     </script>
 </body>
 
