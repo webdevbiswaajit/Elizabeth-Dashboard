@@ -143,19 +143,26 @@ a {
     top: 90px;
 }
 
+.dashbord_middel {
+    width: 280px;
+}
+
 /* =========dashboard_area-end========= */
 /* ===========SideBar Start================ */
 
 #dashboard_left {
-    padding-top: 90px;
-    width: 280px;
-    height: 100vh;
+    padding-top: 30px;
+    width: 230px;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
     transition: .15s all ease;
     -webkit-transition: .15s all ease;
     -moz-transition: .15s all ease;
     -ms-transition: .15s all ease;
     -o-transition: .15s all ease;
+    position: fixed;
+    top: 90px;
+    bottom: 0;
+
 }
 
 .h_link {
@@ -180,7 +187,7 @@ a {
 
 
 #dashboard_left.active {
-    padding-top: 90px;
+    padding-top: 30px;
     width: 80px;
     height: 100vh;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
@@ -245,9 +252,10 @@ a {
 /* ===========SideBar End================ */
 /* =============dashboard-right-start=============== */
 .dashboard_right {
-    width: 100%;
+    width: 190px;
     background: #F5F5F5;
-    height: 100vh;
+    padding-bottom: 50px;
+
 }
 
 .dashboard_content {

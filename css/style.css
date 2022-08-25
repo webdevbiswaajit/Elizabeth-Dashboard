@@ -22,7 +22,7 @@ a {
 .dashboard_right {
     width: 100%;
     background: #F5F5F5;
-    height: 100vh;
+
 }
 
 .dashboard_content {
@@ -123,6 +123,7 @@ a {
 table {
     width: 95%;
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 .view,
@@ -177,7 +178,7 @@ th {
 }
 
 tr td {
-    border: transparent;
+    border: none;
 }
 
 tr:nth-child(even) {
